@@ -1,0 +1,14 @@
+
+Batch size=~128
+/tmp/ipykernel_32/1296365142.py:9: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  input_ids = torch.tensor(input, dtype=torch.long).to(device)
+tensor(0.9896, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9867, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9873, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9927, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9909, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9805, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9851, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9885, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9915, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9910, device='cuda:0', grad_fn=<DivBackward0>)

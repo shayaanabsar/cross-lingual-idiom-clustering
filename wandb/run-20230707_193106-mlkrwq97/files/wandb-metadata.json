@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.19.0-45-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-07-07T19:31:18.524111",
+    "startedAt": "2023-07-07T19:31:06.947006",
+    "docker": null,
+    "gpu": "Quadro P5000",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "main.ipynb",
+    "root": "/notebooks",
+    "git": {
+        "remote": "https://github.com/shayaanabsar/cross-lingual-idiom-clustering.git",
+        "commit": "8ee76874bdeeb4b2827d4ba4ea2be1e2ab52088c"
+    },
+    "email": null,
+    "host": "nw3okr4a71",
+    "username": "root",
+    "executable": "/usr/local/bin/python3"
+}

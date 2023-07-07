@@ -1,0 +1,58 @@
+2023-07-07 19:22:39,314 INFO    MainThread:32 [wandb_setup.py:_flush():68] Configure stats pid to 32
+2023-07-07 19:22:39,314 INFO    MainThread:32 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-07-07 19:22:39,314 INFO    MainThread:32 [wandb_setup.py:_flush():68] Loading settings from /notebooks/wandb/settings
+2023-07-07 19:22:39,314 INFO    MainThread:32 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-07-07 19:22:39,314 INFO    MainThread:32 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-07 19:22:39,314 INFO    MainThread:32 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-07-07 19:22:39,314 INFO    MainThread:32 [wandb_init.py:_log_setup():476] Logging user logs to /notebooks/wandb/run-20230707_192239-2r0uawep/logs/debug.log
+2023-07-07 19:22:39,314 INFO    MainThread:32 [wandb_init.py:_log_setup():477] Logging internal logs to /notebooks/wandb/run-20230707_192239-2r0uawep/logs/debug-internal.log
+2023-07-07 19:22:39,315 INFO    MainThread:32 [wandb_init.py:init():516] calling init triggers
+2023-07-07 19:22:39,315 INFO    MainThread:32 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'architecture': 'BERT', 'batch_size': 64, 'epochs': 2000}
+2023-07-07 19:22:39,315 INFO    MainThread:32 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 1lqgq2br
+2023-07-07 19:22:39,320 INFO    MainThread:32 [wandb_run.py:_finish():1746] finishing run shayaan-absar/Cross-Lingual-Idiom-Sense-Clustering/1lqgq2br
+2023-07-07 19:22:39,320 INFO    MainThread:32 [jupyter.py:save_history():448] not saving jupyter history
+2023-07-07 19:22:39,320 INFO    MainThread:32 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-07-07 19:22:39,320 INFO    MainThread:32 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2023-07-07 19:22:39,321 INFO    MainThread:32 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-07-07 19:22:39,321 INFO    MainThread:32 [wandb_run.py:_restore():1932] restore
+2023-07-07 19:22:39,321 INFO    MainThread:32 [wandb_run.py:_restore():1938] restore done
+2023-07-07 19:22:42,964 INFO    MainThread:32 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-07-07 19:22:42,964 INFO    MainThread:32 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-07-07 19:22:42,968 INFO    MainThread:32 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2023-07-07 19:22:42,981 INFO    MainThread:32 [wandb_init.py:init():569] starting backend
+2023-07-07 19:22:42,982 INFO    MainThread:32 [wandb_init.py:init():573] setting up manager
+2023-07-07 19:22:42,985 INFO    MainThread:32 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-07 19:22:42,987 INFO    MainThread:32 [wandb_init.py:init():580] backend started and connected
+2023-07-07 19:22:42,997 INFO    MainThread:32 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2023-07-07 19:22:42,999 INFO    MainThread:32 [wandb_init.py:init():658] updated telemetry
+2023-07-07 19:22:43,063 INFO    MainThread:32 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-07-07 19:22:44,171 INFO    MainThread:32 [wandb_run.py:_on_init():2000] communicating current version
+2023-07-07 19:22:44,233 INFO    MainThread:32 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.15.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-07-07 19:22:44,233 INFO    MainThread:32 [wandb_init.py:init():728] starting run threads in backend
+2023-07-07 19:22:44,302 INFO    MainThread:32 [wandb_run.py:_console_start():1980] atexit reg
+2023-07-07 19:22:44,303 INFO    MainThread:32 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-07-07 19:22:44,303 INFO    MainThread:32 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-07-07 19:22:44,303 INFO    MainThread:32 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-07-07 19:22:44,305 INFO    MainThread:32 [wandb_init.py:init():765] run started, returning control to user process
+2023-07-07 19:23:36,462 INFO    MainThread:32 [wandb_setup.py:_flush():68] Configure stats pid to 32
+2023-07-07 19:23:36,462 INFO    MainThread:32 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-07-07 19:23:36,462 INFO    MainThread:32 [wandb_setup.py:_flush():68] Loading settings from /notebooks/wandb/settings
+2023-07-07 19:23:36,462 INFO    MainThread:32 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-07-07 19:23:36,462 INFO    MainThread:32 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-07 19:23:36,462 INFO    MainThread:32 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-07-07 19:23:36,463 INFO    MainThread:32 [wandb_init.py:_log_setup():476] Logging user logs to /notebooks/wandb/run-20230707_192336-1dya5ssj/logs/debug.log
+2023-07-07 19:23:36,463 INFO    MainThread:32 [wandb_init.py:_log_setup():477] Logging internal logs to /notebooks/wandb/run-20230707_192336-1dya5ssj/logs/debug-internal.log
+2023-07-07 19:23:36,463 INFO    MainThread:32 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f7a76a51e80>
+2023-07-07 19:23:36,464 INFO    MainThread:32 [wandb_init.py:init():516] calling init triggers
+2023-07-07 19:23:36,464 INFO    MainThread:32 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'architecture': 'BERT', 'batch_size': 64, 'epochs': 10}
+2023-07-07 19:23:36,464 INFO    MainThread:32 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 2r0uawep
+2023-07-07 19:23:36,469 INFO    MainThread:32 [wandb_run.py:_finish():1746] finishing run shayaan-absar/Cross-Lingual-Idiom-Sense-Clustering/2r0uawep
+2023-07-07 19:23:36,469 INFO    MainThread:32 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-07-07 19:23:36,469 INFO    MainThread:32 [wandb_run.py:_restore():1932] restore
+2023-07-07 19:23:36,469 INFO    MainThread:32 [wandb_run.py:_restore():1938] restore done
+2023-07-07 19:23:39,193 INFO    MainThread:32 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-07-07 19:23:39,194 INFO    MainThread:32 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-07-07 19:23:39,198 INFO    MainThread:32 [wandb_run.py:_footer_sync_info():3333] logging synced files

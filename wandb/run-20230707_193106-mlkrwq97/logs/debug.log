@@ -1,0 +1,56 @@
+2023-07-07 19:31:06,958 INFO    MainThread:32 [wandb_setup.py:_flush():68] Configure stats pid to 32
+2023-07-07 19:31:06,959 INFO    MainThread:32 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-07-07 19:31:06,959 INFO    MainThread:32 [wandb_setup.py:_flush():68] Loading settings from /notebooks/wandb/settings
+2023-07-07 19:31:06,959 INFO    MainThread:32 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-07-07 19:31:06,959 INFO    MainThread:32 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-07 19:31:06,959 INFO    MainThread:32 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-07-07 19:31:06,959 INFO    MainThread:32 [wandb_init.py:_log_setup():476] Logging user logs to /notebooks/wandb/run-20230707_193106-mlkrwq97/logs/debug.log
+2023-07-07 19:31:06,959 INFO    MainThread:32 [wandb_init.py:_log_setup():477] Logging internal logs to /notebooks/wandb/run-20230707_193106-mlkrwq97/logs/debug-internal.log
+2023-07-07 19:31:06,959 INFO    MainThread:32 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f7a77d8ca00>
+2023-07-07 19:31:06,959 INFO    MainThread:32 [wandb_init.py:init():516] calling init triggers
+2023-07-07 19:31:06,960 INFO    MainThread:32 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'architecture': 'BERT', 'batch_size': 64, 'epochs': 10}
+2023-07-07 19:31:06,960 INFO    MainThread:32 [wandb_init.py:init():569] starting backend
+2023-07-07 19:31:06,960 INFO    MainThread:32 [wandb_init.py:init():573] setting up manager
+2023-07-07 19:31:06,962 INFO    MainThread:32 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-07 19:31:06,963 INFO    MainThread:32 [wandb_init.py:init():580] backend started and connected
+2023-07-07 19:31:06,973 INFO    MainThread:32 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2023-07-07 19:31:06,974 INFO    MainThread:32 [wandb_init.py:init():658] updated telemetry
+2023-07-07 19:31:07,114 INFO    MainThread:32 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-07-07 19:31:18,441 INFO    MainThread:32 [wandb_run.py:_on_init():2000] communicating current version
+2023-07-07 19:31:18,510 INFO    MainThread:32 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.15.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-07-07 19:31:18,511 INFO    MainThread:32 [wandb_init.py:init():728] starting run threads in backend
+2023-07-07 19:31:18,581 INFO    MainThread:32 [wandb_run.py:_console_start():1980] atexit reg
+2023-07-07 19:31:18,581 INFO    MainThread:32 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-07-07 19:31:18,581 INFO    MainThread:32 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-07-07 19:31:18,581 INFO    MainThread:32 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-07-07 19:31:18,583 INFO    MainThread:32 [wandb_init.py:init():765] run started, returning control to user process
+2023-07-07 19:31:18,590 INFO    MainThread:32 [wandb_init.py:_pause_backend():389] pausing backend
+2023-07-07 19:31:18,590 INFO    MainThread:32 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-07-07 19:31:18,597 INFO    MainThread:32 [wandb_init.py:_resume_backend():398] resuming backend
+2023-07-07 19:31:18,598 INFO    MainThread:32 [wandb_init.py:_pause_backend():389] pausing backend
+2023-07-07 19:31:18,598 INFO    MainThread:32 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-07-07 19:31:18,608 INFO    MainThread:32 [wandb_init.py:_resume_backend():398] resuming backend
+2023-07-07 19:31:18,707 INFO    MainThread:32 [wandb_init.py:_pause_backend():389] pausing backend
+2023-07-07 19:31:18,707 INFO    MainThread:32 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-07-07 19:31:18,717 INFO    MainThread:32 [wandb_init.py:_resume_backend():398] resuming backend
+2023-07-07 19:31:18,719 INFO    MainThread:32 [wandb_init.py:_pause_backend():389] pausing backend
+2023-07-07 19:31:18,719 INFO    MainThread:32 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-07-07 19:31:18,729 INFO    MainThread:32 [wandb_init.py:_resume_backend():398] resuming backend
+2023-07-07 19:31:18,732 INFO    MainThread:32 [wandb_init.py:_pause_backend():389] pausing backend
+2023-07-07 19:31:18,732 INFO    MainThread:32 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-07-07 19:31:18,739 INFO    MainThread:32 [wandb_init.py:_resume_backend():398] resuming backend
+2023-07-07 19:31:25,742 INFO    MainThread:32 [wandb_init.py:_pause_backend():389] pausing backend
+2023-07-07 19:31:25,743 INFO    MainThread:32 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-07-07 19:31:25,751 INFO    MainThread:32 [wandb_init.py:_resume_backend():398] resuming backend
+2023-07-07 19:31:45,475 INFO    MainThread:32 [wandb_run.py:_finish():1746] finishing run shayaan-absar/Cross-Lingual-Idiom-Sense-Clustering/mlkrwq97
+2023-07-07 19:31:45,475 INFO    MainThread:32 [jupyter.py:save_history():448] not saving jupyter history
+2023-07-07 19:31:45,475 INFO    MainThread:32 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-07-07 19:31:45,475 INFO    MainThread:32 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2023-07-07 19:31:45,475 INFO    MainThread:32 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-07-07 19:31:45,476 INFO    MainThread:32 [wandb_run.py:_restore():1932] restore
+2023-07-07 19:31:45,477 INFO    MainThread:32 [wandb_run.py:_restore():1938] restore done
+2023-07-07 19:31:50,455 INFO    MainThread:32 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-07-07 19:31:50,455 INFO    MainThread:32 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-07-07 19:31:50,462 INFO    MainThread:32 [wandb_run.py:_footer_sync_info():3333] logging synced files
