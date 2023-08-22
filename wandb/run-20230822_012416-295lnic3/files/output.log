@@ -1,0 +1,106 @@
+
+[34m[1mwandb[39m[22m: Downloading large artifact model.pt:v0, 1122.74MB. 1 files...
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+Done. 0:0:6.5
+torch.Size([14, 24])
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  input_ids = torch.tensor(input, dtype=torch.long).to(device)
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning: n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+  warn(
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+torch.Size([14, 24])
+torch.Size([14, 24])
+torch.Size([12, 24])
+torch.Size([6, 24])
+torch.Size([20, 24])
+torch.Size([12, 24])
+torch.Size([14, 24])
+torch.Size([8, 24])
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning:
+To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning:
+To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning:
+To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning:
+To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning:
+To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+torch.Size([12, 24])
+torch.Size([14, 24])
+torch.Size([16, 24])
+torch.Size([12, 24])
+torch.Size([12, 24])
+torch.Size([12, 24])
+torch.Size([14, 24])
+torch.Size([16, 24])
+torch.Size([10, 24])
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning:
+To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning:
+To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+torch.Size([8, 24])
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning:
+To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning:
+To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+torch.Size([14, 24])
+torch.Size([14, 24])
+torch.Size([24, 24])
+torch.Size([14, 24])
+torch.Size([20, 24])
+torch.Size([12, 24])
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning:
+To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning:
+To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+torch.Size([16, 24])
+torch.Size([8, 24])
+torch.Size([18, 24])
+torch.Size([8, 24])
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning:
+To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning:
+To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+/var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/ipykernel_82259/250995631.py:11: UserWarning:
+To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:
+n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
+/opt/homebrew/lib/python3.11/site-packages/umap/umap_.py:2344: UserWarning:

@@ -1,0 +1,5 @@
+
+torch.Size([58, 24])
+torch.Size([56, 24])
+torch.Size([64, 24])
+torch.Size([54, 24])

@@ -4,3 +4,4 @@ wandb
 plotly
 numpy
 umap-learn
+ipykernel
