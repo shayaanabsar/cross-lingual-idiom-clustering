@@ -1,0 +1,258 @@
+2023-08-22 01:24:21,072 INFO    StreamThr :82340 [internal.py:wandb_internal():86] W&B internal server running at pid: 82340, started at: 2023-08-22 01:24:21.070742
+2023-08-22 01:24:21,073 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status
+2023-08-22 01:24:21,074 INFO    WriterThread:82340 [datastore.py:open_for_write():85] open: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/run-295lnic3.wandb
+2023-08-22 01:24:21,076 DEBUG   SenderThread:82340 [sender.py:send():379] send: header
+2023-08-22 01:24:21,076 DEBUG   SenderThread:82340 [sender.py:send():379] send: run
+2023-08-22 01:24:21,484 INFO    SenderThread:82340 [dir_watcher.py:__init__():211] watching files in: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files
+2023-08-22 01:24:21,484 INFO    SenderThread:82340 [sender.py:_start_run_threads():1121] run started: 295lnic3 with start time 1692663860.832879
+2023-08-22 01:24:21,491 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: summary_record
+2023-08-22 01:24:21,492 INFO    SenderThread:82340 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-22 01:24:21,499 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: check_version
+2023-08-22 01:24:21,499 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: check_version
+2023-08-22 01:24:21,645 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: run_start
+2023-08-22 01:24:21,647 DEBUG   HandlerThread:82340 [system_info.py:__init__():31] System info init
+2023-08-22 01:24:21,647 DEBUG   HandlerThread:82340 [system_info.py:__init__():46] System info init done
+2023-08-22 01:24:21,647 INFO    HandlerThread:82340 [system_monitor.py:start():181] Starting system monitor
+2023-08-22 01:24:21,647 INFO    SystemMonitor:82340 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-22 01:24:21,647 INFO    HandlerThread:82340 [system_monitor.py:probe():201] Collecting system info
+2023-08-22 01:24:21,647 INFO    SystemMonitor:82340 [interfaces.py:start():190] Started cpu monitoring
+2023-08-22 01:24:21,648 DEBUG   HandlerThread:82340 [system_info.py:probe():195] Probing system
+2023-08-22 01:24:21,648 INFO    SystemMonitor:82340 [interfaces.py:start():190] Started disk monitoring
+2023-08-22 01:24:21,648 INFO    SystemMonitor:82340 [interfaces.py:start():190] Started gpuapple monitoring
+2023-08-22 01:24:21,653 INFO    SystemMonitor:82340 [interfaces.py:start():190] Started memory monitoring
+2023-08-22 01:24:21,654 INFO    SystemMonitor:82340 [interfaces.py:start():190] Started network monitoring
+2023-08-22 01:24:21,655 DEBUG   HandlerThread:82340 [system_info.py:_probe_git():180] Probing git
+2023-08-22 01:24:21,677 DEBUG   HandlerThread:82340 [system_info.py:_probe_git():188] Probing git done
+2023-08-22 01:24:21,677 DEBUG   HandlerThread:82340 [system_info.py:probe():240] Probing system done
+2023-08-22 01:24:21,677 DEBUG   HandlerThread:82340 [system_monitor.py:probe():210] {'os': 'macOS-13.3-arm64-arm-64bit', 'python': '3.11.2', 'heartbeatAt': '2023-08-22T00:24:21.648172', 'startedAt': '2023-08-22T00:24:16.121494', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/shayaanabsar/cross-lingual-idiom-clustering.git', 'commit': 'beca86a07e936138232ad4fa4b1fd5bfe02f4109'}, 'email': None, 'root': '/Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering', 'host': 'MacBook-Pro', 'username': 'Shayaan', 'executable': '/opt/homebrew/opt/python@3.11/bin/python3.11', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 228.27386474609375, 'used': 11.047672271728516}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2023-08-22 01:24:21,677 INFO    HandlerThread:82340 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-22 01:24:21,677 INFO    HandlerThread:82340 [system_monitor.py:probe():214] Publishing system info
+2023-08-22 01:24:21,677 DEBUG   HandlerThread:82340 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-22 01:24:21,678 DEBUG   HandlerThread:82340 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-22 01:24:21,678 INFO    HandlerThread:82340 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-22 01:24:21,678 DEBUG   SenderThread:82340 [sender.py:send():379] send: files
+2023-08-22 01:24:21,679 INFO    SenderThread:82340 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-08-22 01:24:21,687 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:24:21,687 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:24:21,920 DEBUG   SenderThread:82340 [sender.py:send():379] send: telemetry
+2023-08-22 01:24:22,267 DEBUG   SenderThread:82340 [sender.py:send():379] send: use_artifact
+2023-08-22 01:24:22,270 INFO    wandb-upload_0:82340 [upload_job.py:push():131] Uploaded file /var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/tmp5vkmb6j9wandb/bre6cwi4-wandb-metadata.json
+2023-08-22 01:24:22,490 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/wandb-metadata.json
+2023-08-22 01:24:22,490 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/requirements.txt
+2023-08-22 01:24:22,490 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/wandb-summary.json
+2023-08-22 01:24:23,495 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:24:25,503 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:24:26,704 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:24:31,530 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:24:32,211 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:24:36,692 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:24:36,693 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:24:37,841 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:24:42,868 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:24:48,839 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:24:50,618 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:24:51,623 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:24:51,696 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:24:51,697 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:24:54,624 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:24:55,636 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/config.yaml
+2023-08-22 01:24:55,637 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:24:58,653 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:00,319 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:25:05,338 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:25:06,701 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:25:06,701 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:25:10,946 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:25:12,717 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:14,725 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:16,943 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:25:20,755 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:21,660 DEBUG   SystemMonitor:82340 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-22 01:25:21,662 DEBUG   SenderThread:82340 [sender.py:send():379] send: telemetry
+2023-08-22 01:25:21,662 DEBUG   SenderThread:82340 [sender.py:send():379] send: stats
+2023-08-22 01:25:21,706 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:25:21,706 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:25:22,170 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:25:22,766 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:24,772 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:25,778 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:27,668 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:25:27,789 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:28,795 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/config.yaml
+2023-08-22 01:25:33,533 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:25:33,819 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:35,823 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:36,714 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:25:36,714 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:25:38,690 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:25:38,957 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:40,963 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:44,295 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:25:44,983 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:49,002 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:49,669 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:25:51,010 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:25:51,669 DEBUG   SenderThread:82340 [sender.py:send():379] send: stats
+2023-08-22 01:25:51,714 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:25:51,714 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:25:54,931 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:25:58,038 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:26:00,046 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:26:00,398 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:26:02,057 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:26:05,107 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:26:05,641 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:26:06,715 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:26:06,717 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:26:07,113 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:26:11,133 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:26:11,329 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:26:13,139 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:26:16,553 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:26:21,575 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:26:21,675 DEBUG   SenderThread:82340 [sender.py:send():379] send: stats
+2023-08-22 01:26:21,714 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:26:21,715 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:26:22,179 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:26:25,194 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:26:27,113 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:26:27,204 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:26:32,135 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:26:36,721 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:26:36,722 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:26:37,253 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:26:37,561 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:26:39,265 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:26:42,586 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:26:47,604 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:26:51,684 DEBUG   SenderThread:82340 [sender.py:send():379] send: stats
+2023-08-22 01:26:51,729 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:26:51,730 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:26:52,971 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:26:57,992 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:27:03,049 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:27:03,468 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:27:06,736 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:27:06,737 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:27:08,961 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:27:13,981 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:27:19,003 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:27:21,689 DEBUG   SenderThread:82340 [sender.py:send():379] send: stats
+2023-08-22 01:27:21,735 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:27:21,735 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:27:24,978 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:27:30,325 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:27:31,607 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:27:35,346 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:27:36,782 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:27:36,788 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:27:40,798 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:27:45,815 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:27:50,839 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:27:51,696 DEBUG   SenderThread:82340 [sender.py:send():379] send: stats
+2023-08-22 01:27:51,752 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:27:51,752 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:27:55,715 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:27:55,921 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:28:00,948 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:28:05,970 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:28:06,757 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:28:06,758 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:28:08,770 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:28:10,781 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:28:11,327 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:28:12,792 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:28:15,804 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:28:16,352 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:28:21,367 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:28:21,702 DEBUG   SenderThread:82340 [sender.py:send():379] send: stats
+2023-08-22 01:28:21,781 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:28:21,782 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:28:25,849 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:28:27,364 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:28:32,382 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:28:36,782 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:28:36,783 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:28:37,914 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:28:38,038 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:28:43,062 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:28:47,966 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:28:48,309 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:28:51,712 DEBUG   SenderThread:82340 [sender.py:send():379] send: stats
+2023-08-22 01:28:51,792 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:28:51,792 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:28:53,999 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:28:59,019 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:29:04,040 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:29:06,792 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:29:06,793 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:29:09,065 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:29:11,065 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:29:14,299 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:29:15,085 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:29:16,091 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:29:19,536 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:29:21,716 DEBUG   SenderThread:82340 [sender.py:send():379] send: stats
+2023-08-22 01:29:21,797 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:29:21,797 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:29:24,916 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:29:26,128 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:29:29,961 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:29:34,174 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:29:35,054 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:29:36,807 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:29:36,812 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:29:38,189 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:29:40,342 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:29:45,422 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:29:50,425 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:29:51,721 DEBUG   SenderThread:82340 [sender.py:send():379] send: stats
+2023-08-22 01:29:51,803 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:29:51,803 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:29:56,016 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:30:00,297 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:30:01,288 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:30:06,314 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:30:06,809 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:30:06,811 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:30:12,015 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:30:17,041 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:30:21,727 DEBUG   SenderThread:82340 [sender.py:send():379] send: stats
+2023-08-22 01:30:21,813 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:30:21,813 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:30:22,972 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:30:26,423 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:30:28,796 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:30:33,813 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:30:36,823 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:30:36,824 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:30:38,506 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:30:38,976 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:30:43,997 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:30:49,020 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:30:51,735 DEBUG   SenderThread:82340 [sender.py:send():379] send: stats
+2023-08-22 01:30:51,824 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:30:51,824 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:30:54,096 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:30:59,117 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:31:04,134 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:31:06,828 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:31:06,829 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:31:10,002 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:31:15,023 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:31:16,705 INFO    Thread-25 :82340 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/cross-lingual-idiom-clustering/wandb/run-20230822_012416-295lnic3/files/output.log
+2023-08-22 01:31:20,504 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:31:21,741 DEBUG   SenderThread:82340 [sender.py:send():379] send: stats
+2023-08-22 01:31:21,830 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:31:21,830 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:31:26,093 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:31:31,112 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:31:36,134 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:31:36,837 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:31:36,838 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:31:42,015 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:31:47,034 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
+2023-08-22 01:31:51,747 DEBUG   SenderThread:82340 [sender.py:send():379] send: stats
+2023-08-22 01:31:51,841 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-22 01:31:51,842 DEBUG   SenderThread:82340 [sender.py:send_request():406] send_request: stop_status
+2023-08-22 01:31:52,112 DEBUG   HandlerThread:82340 [handler.py:handle_request():144] handle_request: status_report
